@@ -212,7 +212,6 @@ const Header = () => {
       </AppBar>
 
       <Divider sx={{ mx: { xs: 0, md: 2 }, borderRightWidth: 2 }} />
-      <div>frufifnkscks</div>
     </>
   );
 };
