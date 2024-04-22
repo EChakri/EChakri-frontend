@@ -18,6 +18,7 @@ import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutl
 import { useState } from 'react';
 import EChakriLogo from '../../assets/EChakri.svg';
 import { Rowing } from '@mui/icons-material';
+import './Header.scss';
 
 const HeaderButton = ({ icon, text }) => {
   return (
@@ -50,6 +51,7 @@ const Header = () => {
   return (
     <>
       <AppBar
+        className='headerAppBar'
         position='static'
         color='default'
         sx={{ bgcolor: '#ffff' }}
@@ -211,7 +213,7 @@ const Header = () => {
         </Toolbar>
       </AppBar>
 
-      <Divider sx={{ mx: { xs: 0, md: 2 }, borderRightWidth: 2 }} />
+      <Divider sx={{ borderRightWidth: 2 }} />
     </>
   );
 };
