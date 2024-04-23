@@ -50,7 +50,7 @@ const Hero = () => {
             <FiberManualRecordIcon
               sx={{
                 fontSize: '18px',
-                color: activeHero === 'hero1' ? 'red' : 'inherit',
+                color: activeHero === 'hero1' ? '#337EDD' : 'inherit',
                 cursor: 'pointer',
               }}
               onClick={() => handleIconClick('hero1')}
@@ -58,7 +58,7 @@ const Hero = () => {
             <FiberManualRecordIcon
               sx={{
                 fontSize: '18px',
-                color: activeHero === 'hero2' ? 'red' : 'inherit',
+                color: activeHero === 'hero2' ? '#337EDD' : 'inherit',
                 cursor: 'pointer',
               }}
               onClick={() => handleIconClick('hero2')}
@@ -66,7 +66,7 @@ const Hero = () => {
             <FiberManualRecordIcon
               sx={{
                 fontSize: '18px',
-                color: activeHero === 'hero3' ? 'red' : 'inherit',
+                color: activeHero === 'hero3' ? '#337EDD' : 'inherit',
                 cursor: 'pointer',
               }}
               onClick={() => handleIconClick('hero3')}
